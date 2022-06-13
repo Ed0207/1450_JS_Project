@@ -1,0 +1,22 @@
+body{
+    font-family: sans-serif;
+    background-color: wheat;
+}
+
+#wrapper{
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+}
+
+h1{
+    text-align: center;
+}
+
+#scoreboard{
+    text-align: center;
+}
+
+#gameboard{
+    text-align: center;
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Block Game for CPSC1045</title>
+        <script src="blockgame.js" defer></script>
+        <link href="blockgame.css" rel="stylesheet"/>
+    </head>
+
+    <body onkeypress="getinput(event)">
+        <div id="wrapper">
+            <h3>Created by Edward Chen for CPSC 1045 006 </h3>
+            <h1>Tetris prototype</h1>
+            <h4>
+                <div id="scoreboard">
+                Score: 0
+                </div>
+            </h4>
+            <div id="msgboard">
+            </div>
+            <div id="gameboard">
+                <input type="button" value="Restart" onclick="refreshpage()">
+                <input type="button" value="start game" onclick="fortesting()"><br>
+                <svg width="500" height="700" id="field" onload="ondefault()">
+
+                </svg>
+            </div>
+    </body>
+
+</html>

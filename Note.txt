@@ -1,0 +1,37 @@
+Submit by Edward Chen
+
+This file is the finished product, but can be updated if requried
+
+The main logic of the game:
+
+	
+	Create two objects : the background object and the block object.
+
+	Two objects are treated differently for the convenience to calculate different situation.
+
+	Background and blocks object will be refresh and printed out every 0.05 second to display block movement
+
+	Every 1 second the block will calculate if it will fall down or stack on the other block/ reach the bottom
+
+	If stack up on the other block or reach bottom, the function will update the background with the position of the current block
+
+	The function will generate a new block for the next round.
+
+	The game will then proceed to check if any row is completed or the game will be over.
+
+	The game will only be over if where the new block generated overlap with the background.
+
+
+Known issue so far:
+
+	When object reaches the bottom and player keep pressing "s" or "down" key, the error message will pop up in console due to type error 
+	(does not affect calculation or any functionality)
+
+	When player click start game multiple times, the game will speed up, possibly due to multiple event loops running at the same time.
+
+	After game over, if player press start game button again, the game will start running with the current state again.
+
+	The speed up function is not yet programmed in the game.
+
+
+
